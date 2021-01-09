@@ -1,0 +1,13 @@
+div {
+    width: 400px;
+    height: 200px;
+    border: 10px dashed red;
+    margin: 20px auto;
+}
+
+.second{
+    box-sizing: border-box;
+    background-image: url(https://i2-prod.mirror.co.uk/incoming/article14334083.ece/ALTERNATES/s810/3_Beautiful-girl-with-a-gentle-smile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
