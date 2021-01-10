@@ -1,0 +1,29 @@
+html {
+    background-color: darkturquoise;
+}
+
+body {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #00C957;
+    border: 5px solid black;
+}
+
+img {
+    border:peru groove 5px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: red;
+}
+
+p {
+    color:darkslategrey;
+}
