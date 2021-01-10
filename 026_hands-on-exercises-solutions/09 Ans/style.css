@@ -2,6 +2,7 @@ p {
     font-family: 'Monserrat', sans-serif;
     font-weight: 100;
     text-indent: 1rem;
+    font-variant: small-caps;
 }
 
 #bold {
