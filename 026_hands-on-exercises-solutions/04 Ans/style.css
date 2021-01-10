@@ -1,0 +1,14 @@
+p {
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 100;
+}
+
+#bold {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+[priority] {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
