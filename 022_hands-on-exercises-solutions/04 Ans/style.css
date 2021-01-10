@@ -1,0 +1,18 @@
+a:link {
+    color: purple;
+    border:skyblue 2px solid;
+}
+
+a:visited {
+    color: saddlebrown;
+    border:skyblue 2px solid;
+}
+
+a:hover {
+    border: springgreen 2px solid;
+}
+
+a:active {
+    color: tomato;
+    border: sienna 1px solid;
+}
