@@ -1,0 +1,8 @@
+p {
+    color:salmon;
+}
+
+[priority] {
+    color: seagreen;
+    border: darkred 3px dashed;
+}
