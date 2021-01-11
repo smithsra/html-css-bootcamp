@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-flow: row no-wrap;
+    justify-content: center;
+    align-content: space-around;
+    height: 500px;
+}
+
+div {
+    border: 2px solid green;
+    padding: 5px;
+    width: 100px;
+}
+
+.one {
+    flex-grow: 1;
+}
+
+.two {
+    flex-grow: 2;
+}

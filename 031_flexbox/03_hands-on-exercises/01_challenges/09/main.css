@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-around;
+    height: 500px;
+}
+
+div {
+    border: 2px solid green;
+    padding: 5px;
+}
+
+.diff {
+    order: 1
+}
