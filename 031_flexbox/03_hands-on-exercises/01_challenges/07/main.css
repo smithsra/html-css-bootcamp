@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-end;
+    height: 500px;
+}
+
+div {
+    border: 2px solid green;
+    padding: 5px;
+}
