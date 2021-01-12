@@ -1,0 +1,15 @@
+ul {
+    background: deepskyblue;
+}
+
+a {
+    color:mintcream;
+    padding: 20px 0;
+    text-align: center;
+    border-top:1px solid rgb(170, 222, 240);
+    border-bottom:1px solid rgb(170, 222, 240);
+}
+
+a:hover {
+    background-color: royalblue;
+}

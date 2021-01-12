@@ -1,0 +1,23 @@
+/* These resets are not needed as using a global reset 
+html,
+body,
+ul,
+li,
+a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+/* Make ul the flex container */
+ul {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+/* Make the a element block not in line. Without it being a block padding wont work*/
+a {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+}
