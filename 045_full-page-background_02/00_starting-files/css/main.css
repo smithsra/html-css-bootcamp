@@ -100,16 +100,17 @@ header nav a:hover {
 h1 {
   font-size: 2rem;
   text-align: center;
+  padding-top: 1.5rem;
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 700;
   text-align: center;
 }
 
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   text-align: center;
   margin-top: 0.8rem;
   line-height: 1.2;
@@ -122,4 +123,5 @@ button {
   border: 1px solid rgb(202, 250, 234);
   padding: 0.7rem 1.2rem;
   border-radius: 3px;
+  margin: 10px;
 }
