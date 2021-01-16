@@ -1,15 +1,38 @@
+header > div {
+  height: 70%;
+  width: 250px;
+  margin: 0 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header > nav {
+  height: 70%;
+  width: 300px;
+  margin: 0 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.idx-hdr-svg {
+  display: inherit;
+  width: 30px;
+  fill: currentColor;
+}
+
 #idx-atf {
-    background-image: url("../img/background-photo.jpg");
+  background-image: url("../img/background-photo.jpg");
 }
 
 #idx-atf > div {
-    height: 18vh;
+  height: 18vh;
 }
 
 h1 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 h3 {
-    margin-top: .4rem;
+  margin-top: 0.4rem;
 }

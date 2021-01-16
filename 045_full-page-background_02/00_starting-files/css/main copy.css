@@ -17,15 +17,18 @@ header {
 
 header > div {
   height: 70%;
-  width: 100%;
+  width: 20%;
   margin: 0 0.5rem;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 header > nav {
-  display: none;
+  height: 70%;
+  width: 25%;
+  margin: 0 0.5rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 header a {
@@ -53,7 +56,6 @@ header nav a:hover {
 }
 
 .idx-hdr-svg {
-  display: none;
   width: 30px;
   fill: currentColor;
 }
@@ -80,7 +82,7 @@ header nav a:hover {
 }
 
 #idx-atf > div {
-  height: 80vh;
+  height: 90vh;
 }
 
 .idx-center-spacebetween {
