@@ -10,6 +10,23 @@ header {
   background-color: rgba(0,0,0, 0.6);
   height:2.8rem;
   width: 100%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > div {
+  height: 70%;
+  width: 10%;
+  margin: 0 0.5rem;
+  background-color: red;
+}
+
+header > nav {
+  height: 70%;
+  width: 10%;
+  margin: 0 0.5rem;
+  background-color: red;
 }
 
 #idx-atf {
