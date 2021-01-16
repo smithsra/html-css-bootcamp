@@ -19,14 +19,24 @@ header > div {
   height: 70%;
   width: 10%;
   margin: 0 0.5rem;
-  background-color: red;
+  display: flex;
 }
 
 header > nav {
   height: 70%;
-  width: 10%;
+  width: 15%;
   margin: 0 0.5rem;
-  background-color: red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.idx-hdr-svg {
+  width: 30px;
+  fill: white;
+}
+
+.idx-hdr-svg:hover {
+  fill:red;
 }
 
 #idx-atf {
