@@ -1,0 +1,58 @@
+html,
+body,
+div {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 3vw;
+}
+
+#atf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#stepper {
+  display: flex;
+  width: 40vw;
+  height: 12vh;
+  border: 1px solid lightskyblue;
+  border-radius: 1rem;
+}
+
+#minus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: lightcyan;
+    border-radius: 1rem 0 0 1rem;
+}
+
+#counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-left: 1px solid lightblue;
+    border-right: 1px solid lightblue;
+}
+
+#plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: lightcyan;
+    border-radius: 0 1rem 1rem 0;
+}
+
+#minus:hover, #plus:hover {
+    background-color: lightslategray;
+}
+
