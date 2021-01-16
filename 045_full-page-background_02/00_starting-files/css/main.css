@@ -17,26 +17,51 @@ header {
 
 header > div {
   height: 70%;
-  width: 10%;
+  width: 20%;
   margin: 0 0.5rem;
   display: flex;
+  align-items: center;
 }
 
 header > nav {
   height: 70%;
-  width: 15%;
+  width: 25%;
   margin: 0 0.5rem;
   display: flex;
   justify-content: space-between;
 }
 
+header a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+header div a:hover {
+  color:darkkhaki;
+}
+
+header div a h1{
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+header nav a {
+  padding: 0 1rem;
+}
+
+header nav a:hover {
+  background-color:dimgray;
+  border-radius: 5px;
+}
+
 .idx-hdr-svg {
   width: 30px;
-  fill: white;
+  fill: currentColor;
 }
 
 .idx-hdr-svg:hover {
-  fill:red;
+  fill:darkkhaki;
 }
 
 #idx-atf {
