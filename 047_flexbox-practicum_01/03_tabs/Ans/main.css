@@ -24,3 +24,11 @@
 #tab1:hover, #tab2:hover, #tab3:hover, #tab4:hover {
     border-bottom: 3px solid turquoise;
 }
+
+button {
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    border-bottom: .2rem solid transparent;
+}
