@@ -10,7 +10,7 @@ animation-play-state: running
 */
 
 html {
-    font-size: 4vw;
+    font-size: 1vw;
 }
 
 html, body {
@@ -20,29 +20,21 @@ html, body {
 }
 
 body {
-    color: red;
+    color: green;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
-.icon {
-    width: 1em; height: 1em;
-    fill: currentColor;
-}
-
-.circle {
-    font-size: 8rem;
-    position: relative;
-    /* left: 0; */
-    animation-name: move;
-    animation-duration: 5s;
+p {
+    animation-name: grow-text;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
 }
 
-@keyframes move {
-    0% { left: 0; }
-    100%   { left: 68%; }
+@keyframes grow-text {
+    0% { font-size: 1rem; }
+    100%   { font-size: 17rem; }
 }
